@@ -357,9 +357,6 @@ on property:ril.cdma.data_state=0
 
     setprop wifi.interface wlan0
 
-# TelephonyManager.java requires this
-    chmod 0644 /proc/cmdline
-
 # Device Encryption by B2B Security Lab.
     setprop ro.crypto.keyfile.userdata /efs/metadata
 
